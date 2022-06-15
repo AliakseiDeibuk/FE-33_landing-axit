@@ -1,0 +1,86 @@
+.customers {
+    padding: 100px 0;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.customers-card-item {
+    width: 298px;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+.customers-card-item:hover{
+    
+}
+.customers-card-item:hover {
+    transform: translate(15px, 15px);
+    box-shadow: 10px 5px 5px grey;
+    border-radius: 5px;
+}
+.customers-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.customers-card-item-text {
+    background: #E2E2E2;
+    border-radius: 7px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    text-align: center;
+    color: #86878B;
+    padding: 9px 22px 6px 23px;
+    margin-bottom: 22px;
+    position: relative;
+}
+.customers-card-item-text::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 14px 0px 14px;
+    border-color: rgba(226, 226, 226, 1) transparent transparent transparent;
+    left: 30px;
+    bottom: -14px;
+    position: absolute;
+}
+.customers-card-persone {
+    display: flex;
+    justify-content: space-around;
+}
+.customers-card-img img {
+    width: 70px;
+    height: 70px;
+    left: 202px;
+    top: 410px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.surname-card-item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 12px;
+    display: flex;
+}
+.position-card-item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    display: flex;
+}

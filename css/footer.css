@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    flex-wrap: wrap;
+    background: #000000;
+    height: 60px;
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-navigation {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-icon i {
+    color: #a0a0a0;
+    margin-top: 30px;
+    padding-left: 15px;
+    font-size: 28px;
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+
+
+

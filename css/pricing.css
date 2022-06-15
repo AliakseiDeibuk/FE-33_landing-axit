@@ -1,0 +1,110 @@
+.pricing {
+    background-color: #F5F5F5;
+    padding: 80px 0;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.pricing-wrap {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    padding: auto;
+    flex-wrap: wrap;
+}
+.pricing-line {
+    margin:auto;
+    width: 64px;
+    height: 2px;
+    border: 1px solid #E72424;
+    margin: 34px auto;
+}
+.pricing-description {
+    padding-top: 34px;
+    margin: 34px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.pricing-list {
+    width: 340px;
+    transition: 0.5s;
+}
+.pricing-list:hover {
+    transform: translate(15px, 15px);
+    box-shadow: 10px 5px 5px grey;
+}
+.list-item-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    left: 113px;
+    top: 324px;
+    background: #333333;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+.list-item-tariff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    left: 113px;
+    top: 272px;
+    background: #333333;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+.list-item-terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    left: 113px;
+    top: 426px;
+    background: #333333;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2px;
+}
+.list-item-secvices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 40px;
+    left: 113px;
+    top: 480px;
+    background: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 2px;
+    }
